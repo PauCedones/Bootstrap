@@ -11,10 +11,17 @@
     <title>Blog personal de Paula Cedones</title>
 </head>
 <body>
-    <nav class="navbar navbar-dark bg-primary" >
+    <!-- ARCHIVOS BOOTSTRAP JAVASCRIPT -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+   
+    
+    <!--MENU NAVEGACION-->
+    <nav class="navbar navbar-dark bg-dark navbar-expand-md fixed-top">
         <div class="container">
             <a href="#" class="navbar-brand">
-                <img src="img/logo.png" alt="Logo del sitio" width="150" height="auto">
+                <strong>Paula</strong>Cedones
             </a>
             <button type="button" class="navbar-toggler" data-toggle="collapse"
             data-target="#menu-principal" aria-controls="#menu-principal" aria-expanded="false"
@@ -22,13 +29,46 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="collapse" id="menu-principal">
-                blablablablablablab
+            <div class="collapse navbar-collapse  " id="menu-principal">
+                <ul class="navbar-nav ml-auto ">
+                    <li class="nav-item active"><a href="#"class="nav-link">Inicio</a></li>
+                    <li class="nav-item"><a href="#"class="nav-link">¿Quien Soy?</a></li>
+                    <li class="nav-item"><a href="#"class="nav-link">Proyectos</a></li>
+                </ul>
             </div>
-
         </div>
-        
     </nav>
+
+    <!----QUIEN SOY---->
+    <section class="quien-soy py-4 mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <img src="img/desarrolladora.png" class="img-fluid mb-4" alt="soy el desarrollador">
+                </div>
+                <div class="col-12 col-md-6 text-center text-md-left align-self-md-center">
+                    <h1 class="display-4 font-weight-bold text-primary
+                    ">¿Quien Soy?</h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti dolorem quo doloremque dolore eligendi quaerat asperiores consectetur facere eveniet explicabo facilis reiciendis voluptates id, ex voluptatibus dicta recusandae aliquam! Unde?</p>
+                    <a href="#" class="btn btn-primary btn-lg">Leér Más</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!----SECCION FILOSOFIA---->
+        <section class="filosofia py-4 bg-primary text-center text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <img src="img/avatar-pau.jpeg" width="260" height="auto" alt="Avatar de Paula Cedones"
+                    class="img-fluid rounded-circle mb-4">
+                    <p class="h2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos similique illum assumenda in praesentium tenetur. Nulla, minima delectus ex cum excepturi ipsum provident mollitia recusandae tempora eaque, officia nobis necessitatibus?</p>
+                    <p class="h4 font-italic">-Paula Cedones</p>
+                </div>
+            </div>
+        </div>
+    </section>
     
     
     <script type="text/javascript" src="js/app.js"></script>

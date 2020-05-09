@@ -9875,8 +9875,11 @@ h3 {
     border-color: #dee2e6;
   }
 }
-/*------------------
-ESTILOS DE PRUEBA
-------------------*/
+/*-------------------
+ESTILOS DEL DISEÑO
+-------------------*/
+html {
+  font-size: 13px;
+}
 
 /*# sourceMappingURL=estilo.css.map */
