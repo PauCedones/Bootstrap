@@ -1,4 +1,20 @@
 @import '../node_modules/bootstrap/scss/bootstrap';
 @import 'variables';
+@import 'mixins';
 
+/*-------------------
+ESTILOS DEL DISEÑO
+-------------------*/
 
+html{
+    font-size: 13px;
+}
+body{
+    color: $texto;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.card:hover{
+    box-shadow: 0 0 10px #0c0c0c3b;
+
+}

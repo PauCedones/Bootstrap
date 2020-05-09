@@ -1,8 +1,32 @@
+//----------------------------
+//    PATRON DE COLORES
+//----------------------------
+$principal: rgb(110, 11, 150);
+$texto: #44484a;
 
-/*-------------------
-ESTILOS DEL DISEÑO
--------------------*/
-
-html{
-    font-size: 13px;
+/*---------------------------------------
+SOBREESCRIBIENDO LOS ESTILOS DE BOOTSTRAP
+---------------------------------------*/
+.bg-primary{
+    background-color: $principal !important;
 }
+.text-primary{
+    color: $principal !important;
+}
+
+.btn-primary{
+    background-color: $principal !important;
+    border-color: darken($principal,10%)!important ;
+    &:hover{
+        background-color: darken($principal,10%)!important;
+    }
+    &:focus{
+        background-color: darken($principal,10%) !important;
+        box-shadow:0 0 0 0.2rem rgba($principal,.5) !important;
+    }
+    &:active{
+        background-color: darken($principal,20%)!important;
+
+    }
+}
+

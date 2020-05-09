@@ -9875,11 +9875,51 @@ h3 {
     border-color: #dee2e6;
   }
 }
+/*---------------------------------------
+SOBREESCRIBIENDO LOS ESTILOS DE BOOTSTRAP
+---------------------------------------*/
+.bg-primary {
+  background-color: #6e0b96 !important;
+}
+
+.text-primary {
+  color: #6e0b96 !important;
+}
+
+.btn-primary {
+  background-color: #6e0b96 !important;
+  border-color: #4b0866 !important;
+}
+.btn-primary:hover {
+  background-color: #4b0866 !important;
+}
+.btn-primary:focus {
+  background-color: #4b0866 !important;
+  box-shadow: 0 0 0 0.2rem rgba(110, 11, 150, 0.5) !important;
+}
+.btn-primary:active {
+  background-color: #280437 !important;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
 /*-------------------
 ESTILOS DEL DISEÑO
 -------------------*/
 html {
   font-size: 13px;
+}
+
+body {
+  color: #44484a;
+  font-family: "Open Sans", sans-serif;
+}
+
+.card:hover {
+  box-shadow: 0 0 10px #0c0c0c3b;
 }
 
 /*# sourceMappingURL=estilo.css.map */
